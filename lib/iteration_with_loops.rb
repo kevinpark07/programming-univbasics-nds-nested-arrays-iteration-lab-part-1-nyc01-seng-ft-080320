@@ -8,7 +8,7 @@ while i < src.length do
   
   inner_i = 0 
   while src[i].length do
-    if src[i][inner_i].even?
+    if src[i][inner_i].even? 
       p src[i][inner_i]
     end
     inner_i += 1
